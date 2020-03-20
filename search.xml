@@ -20,7 +20,25 @@
       </tags>
   </entry>
   <entry>
-    <title>类和对象的理解</title>
+    <title>本地变量和成员变量</title>
+    <url>/2020/03/20/%E6%9C%AC%E5%9C%B0%E5%8F%98%E9%87%8F%E5%92%8C%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F/</url>
+    <content><![CDATA[<h1 id="本地变量和成员变量"><a href="#本地变量和成员变量" class="headerlink" title="本地变量和成员变量"></a>本地变量和成员变量</h1><ol>
+<li>定义在函数内部的变量为本地变量，定义在函数外面的变量是成员变量</li>
+<li>本地变量的作用域和生存期都在函数内部</li>
+<li>成员变量的作用域是类内部，生存期是对象的生存期</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Java基础</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>blog</tag>
+        <tag>变量</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>class and object</title>
     <url>/2020/03/20/%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1%E7%9A%84%E7%90%86%E8%A7%A3/</url>
     <content><![CDATA[<h1 id="类和对象的理解"><a href="#类和对象的理解" class="headerlink" title="类和对象的理解"></a>类和对象的理解</h1><ol>
 <li><p>类定义了对象长什么样，对象则是按照类的定义所制造出来的实体，一个类可以创建很多对象，每个对象有自己的数据</p>
@@ -37,9 +55,18 @@
 </li>
 </ol>
 ]]></content>
+      <categories>
+        <category>Java基础</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>blog</tag>
+        <tag>class</tag>
+        <tag>object</tag>
+      </tags>
   </entry>
   <entry>
-    <title>接口（interface）</title>
+    <title>Interface</title>
     <url>/2020/03/20/%E6%8E%A5%E5%8F%A3%EF%BC%88interface%EF%BC%89/</url>
     <content><![CDATA[<h1 id="接口（interface）"><a href="#接口（interface）" class="headerlink" title="接口（interface）"></a>接口（interface）</h1><p>接口是纯抽象类<br>    所有的成员函数都是抽象函数<br>    所有成员变量都是public static final<br> 接口规定了长什么样，但是不管里面有什么<br> 接口是一种class，与class的地位是一样的，即所有能使用class的地方都可以使用interface</p>
 <hr>
@@ -57,33 +84,37 @@
 <li>代码量快速膨胀，受到批评</li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>本地变量和成员变量</title>
-    <url>/2020/03/20/%E6%9C%AC%E5%9C%B0%E5%8F%98%E9%87%8F%E5%92%8C%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F/</url>
-    <content><![CDATA[<h1 id="本地变量和成员变量"><a href="#本地变量和成员变量" class="headerlink" title="本地变量和成员变量"></a>本地变量和成员变量</h1><ol>
-<li>定义在函数内部的变量为本地变量，定义在函数外面的变量是成员变量</li>
-<li>本地变量的作用域和生存期都在函数内部</li>
-<li>成员变量的作用域是类内部，生存期是对象的生存期</li>
-</ol>
-]]></content>
+      <categories>
+        <category>Java基础</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>blog</tag>
+        <tag>interface</tag>
+      </tags>
   </entry>
   <entry>
     <title>this关键字</title>
     <url>/2020/03/20/this%E5%85%B3%E9%94%AE%E5%AD%97/</url>
-    <content><![CDATA[<h1 id="this关键字"><a href="#this关键字" class="headerlink" title="this关键字"></a>this关键字</h1><p>this是成员函数的一个特殊的固有的本地变量，它表达了调用这个函数的那个对象</p>
+    <content><![CDATA[<hr>
+<p>title: this关键字<br>date: 2020-03-20 13:51:44<br>categories:</p>
+<ul>
+<li>Java基础<br>tags: </li>
+<li>Java</li>
+<li>this关键字<h1 id="this关键字"><a href="#this关键字" class="headerlink" title="this关键字"></a>this关键字</h1>this是成员函数的一个特殊的固有的本地变量，它表达了调用这个函数的那个对象</li>
+</ul>
 ]]></content>
   </entry>
   <entry>
     <title>Systematic learn Java</title>
     <url>/2020/03/20/Systematic%20learn%20Java/</url>
-    <content><![CDATA[<h1 id="一个系统的Java学习网站https-cloudlandboy-github-io-myNote"><a href="#一个系统的Java学习网站https-cloudlandboy-github-io-myNote" class="headerlink" title="一个系统的Java学习网站https://cloudlandboy.github.io/myNote/#/"></a>一个系统的Java学习网站<a href="https://cloudlandboy.github.io/myNote/#/" target="_blank" rel="noopener">https://cloudlandboy.github.io/myNote/#/</a></h1>]]></content>
-  </entry>
-  <entry>
-    <title>My second blog</title>
-    <url>/2020/03/17/My-second-blog/</url>
-    <content><![CDATA[<p>3月18日搭建完成自己的第一个博客，主要是基于Hexo框架完成的，其中所用到的工具主要有：</p>
-<h2 id="node-js-npm-cnpm-git"><a href="#node-js-npm-cnpm-git" class="headerlink" title="node.js npm cnpm git"></a>node.js npm cnpm git</h2>]]></content>
+    <content><![CDATA[<hr>
+<p>title: one learning website for system Java<br>date: 2020-03-20 17:32:55<br>categories: </p>
+<ul>
+<li>Java基础<br>tags:</li>
+<li>Java<h1 id="一个系统的Java学习网站https-cloudlandboy-github-io-myNote"><a href="#一个系统的Java学习网站https-cloudlandboy-github-io-myNote" class="headerlink" title="一个系统的Java学习网站https://cloudlandboy.github.io/myNote/#/"></a>一个系统的Java学习网站<a href="https://cloudlandboy.github.io/myNote/#/" target="_blank" rel="noopener">https://cloudlandboy.github.io/myNote/#/</a></h1></li>
+</ul>
+]]></content>
   </entry>
   <entry>
     <title>Hello World</title>
