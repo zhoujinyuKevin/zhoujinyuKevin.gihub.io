@@ -20,6 +20,34 @@
       </tags>
   </entry>
   <entry>
+    <title>Interface</title>
+    <url>/2020/03/20/%E6%8E%A5%E5%8F%A3%EF%BC%88interface%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="接口（interface）"><a href="#接口（interface）" class="headerlink" title="接口（interface）"></a>接口（interface）</h1><p>接口是纯抽象类<br>    所有的成员函数都是抽象函数<br>    所有成员变量都是public static final<br> 接口规定了长什么样，但是不管里面有什么<br> 接口是一种class，与class的地位是一样的，即所有能使用class的地方都可以使用interface</p>
+<hr>
+<h1 id="实现接口"><a href="#实现接口" class="headerlink" title="实现接口"></a>实现接口</h1><ul>
+<li>类用extends，接口用implements</li>
+<li>类可以实现很多接口</li>
+<li>接口可以继承接口，但不能继承类</li>
+<li>接口不能实现接口</li>
+</ul>
+<hr>
+<h1 id="面向接口的编程方式"><a href="#面向接口的编程方式" class="headerlink" title="面向接口的编程方式"></a>面向接口的编程方式</h1><ul>
+<li>设计程序时先定义接口，再实现类</li>
+<li>任何需要再函数间传入传出的一定是接口而不是具体的类</li>
+<li>多人合作编程较为有利</li>
+<li>代码量快速膨胀，受到批评</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Java基础</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>blog</tag>
+        <tag>interface</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>本地变量和成员变量</title>
     <url>/2020/03/20/%E6%9C%AC%E5%9C%B0%E5%8F%98%E9%87%8F%E5%92%8C%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F/</url>
     <content><![CDATA[<h1 id="本地变量和成员变量"><a href="#本地变量和成员变量" class="headerlink" title="本地变量和成员变量"></a>本地变量和成员变量</h1><ol>
@@ -63,34 +91,6 @@
         <tag>blog</tag>
         <tag>class</tag>
         <tag>object</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Interface</title>
-    <url>/2020/03/20/%E6%8E%A5%E5%8F%A3%EF%BC%88interface%EF%BC%89/</url>
-    <content><![CDATA[<h1 id="接口（interface）"><a href="#接口（interface）" class="headerlink" title="接口（interface）"></a>接口（interface）</h1><p>接口是纯抽象类<br>    所有的成员函数都是抽象函数<br>    所有成员变量都是public static final<br> 接口规定了长什么样，但是不管里面有什么<br> 接口是一种class，与class的地位是一样的，即所有能使用class的地方都可以使用interface</p>
-<hr>
-<h1 id="实现接口"><a href="#实现接口" class="headerlink" title="实现接口"></a>实现接口</h1><ul>
-<li>类用extends，接口用implements</li>
-<li>类可以实现很多接口</li>
-<li>接口可以继承接口，但不能继承类</li>
-<li>接口不能实现接口</li>
-</ul>
-<hr>
-<h1 id="面向接口的编程方式"><a href="#面向接口的编程方式" class="headerlink" title="面向接口的编程方式"></a>面向接口的编程方式</h1><ul>
-<li>设计程序时先定义接口，再实现类</li>
-<li>任何需要再函数间传入传出的一定是接口而不是具体的类</li>
-<li>多人合作编程较为有利</li>
-<li>代码量快速膨胀，受到批评</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Java基础</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>blog</tag>
-        <tag>interface</tag>
       </tags>
   </entry>
   <entry>
