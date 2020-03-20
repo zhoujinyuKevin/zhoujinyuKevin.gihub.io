@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>static关键字学习</title>
+    <url>/2020/03/20/static%E5%85%B3%E9%94%AE%E5%AD%97/</url>
+    <content><![CDATA[<ol>
+<li>static定义的变量是类变量，即可以通过 <strong>类.变量</strong> 的方式进行访问，static定义的变量不属于任何对象，属于该类，任何对象都可以调用该变量，但是只有那一份</li>
+<li>static定义的函数是类函数，他不属于任何对象，属于这个类，</li>
+<li>static的函数只能调用static的函数，只能访问static的变量，static的变量和函数能通过类的方式访问，也可以通过对象的形式访问，不过用对象形式访问时不能获得对象的具体信息，</li>
+<li>static的变量和函数在类的装载（进入类过程）的时候被初始化，static的初始化和对象的创建无关。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Java基础</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>blog</tag>
+        <tag>static</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>类和对象的理解</title>
     <url>/2020/03/20/%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1%E7%9A%84%E7%90%86%E8%A7%A3/</url>
     <content><![CDATA[<h1 id="类和对象的理解"><a href="#类和对象的理解" class="headerlink" title="类和对象的理解"></a>类和对象的理解</h1><ol>
@@ -59,17 +78,6 @@
     <title>Systematic learn Java</title>
     <url>/2020/03/20/Systematic%20learn%20Java/</url>
     <content><![CDATA[<h1 id="一个系统的Java学习网站https-cloudlandboy-github-io-myNote"><a href="#一个系统的Java学习网站https-cloudlandboy-github-io-myNote" class="headerlink" title="一个系统的Java学习网站https://cloudlandboy.github.io/myNote/#/"></a>一个系统的Java学习网站<a href="https://cloudlandboy.github.io/myNote/#/" target="_blank" rel="noopener">https://cloudlandboy.github.io/myNote/#/</a></h1>]]></content>
-  </entry>
-  <entry>
-    <title>static关键字</title>
-    <url>/2020/03/20/static%E5%85%B3%E9%94%AE%E5%AD%97/</url>
-    <content><![CDATA[<h1 id="static关键字学习"><a href="#static关键字学习" class="headerlink" title="static关键字学习"></a>static关键字学习</h1><ol>
-<li>static定义的变量是类变量，即可以通过 <strong>类.变量</strong> 的方式进行访问，static定义的变量不属于任何对象，属于该类，任何对象都可以调用该变量，但是只有那一份</li>
-<li>static定义的函数是类函数，他不属于任何对象，属于这个类，</li>
-<li>static的函数只能调用static的函数，只能访问static的变量，static的变量和函数能通过类的方式访问，也可以通过对象的形式访问，不过用对象形式访问时不能获得对象的具体信息，</li>
-<li>static的变量和函数在类的装载（进入类过程）的时候被初始化，static的初始化和对象的创建无关。</li>
-</ol>
-]]></content>
   </entry>
   <entry>
     <title>My second blog</title>
