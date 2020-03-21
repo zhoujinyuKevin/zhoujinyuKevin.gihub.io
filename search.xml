@@ -48,24 +48,6 @@
       </tags>
   </entry>
   <entry>
-    <title>本地变量和成员变量</title>
-    <url>/2020/03/20/%E6%9C%AC%E5%9C%B0%E5%8F%98%E9%87%8F%E5%92%8C%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F/</url>
-    <content><![CDATA[<h1 id="本地变量和成员变量"><a href="#本地变量和成员变量" class="headerlink" title="本地变量和成员变量"></a>本地变量和成员变量</h1><ol>
-<li>定义在函数内部的变量为本地变量，定义在函数外面的变量是成员变量</li>
-<li>本地变量的作用域和生存期都在函数内部</li>
-<li>成员变量的作用域是类内部，生存期是对象的生存期</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Java基础</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>blog</tag>
-        <tag>变量</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>class and object</title>
     <url>/2020/03/20/%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1%E7%9A%84%E7%90%86%E8%A7%A3/</url>
     <content><![CDATA[<h1 id="类和对象的理解"><a href="#类和对象的理解" class="headerlink" title="类和对象的理解"></a>类和对象的理解</h1><ol>
@@ -91,6 +73,24 @@
         <tag>blog</tag>
         <tag>class</tag>
         <tag>object</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>本地变量和成员变量</title>
+    <url>/2020/03/20/%E6%9C%AC%E5%9C%B0%E5%8F%98%E9%87%8F%E5%92%8C%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F/</url>
+    <content><![CDATA[<h1 id="本地变量和成员变量"><a href="#本地变量和成员变量" class="headerlink" title="本地变量和成员变量"></a>本地变量和成员变量</h1><ol>
+<li>定义在函数内部的变量为本地变量，定义在函数外面的变量是成员变量</li>
+<li>本地变量的作用域和生存期都在函数内部</li>
+<li>成员变量的作用域是类内部，生存期是对象的生存期</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Java基础</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>blog</tag>
+        <tag>变量</tag>
       </tags>
   </entry>
   <entry>
