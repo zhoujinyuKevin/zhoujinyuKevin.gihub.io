@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-20T09:32:55.275Z</updated>
+  <updated>2020-03-20T09:37:13.999Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Interface</title>
+    <link href="http://yoursite.com/2020/03/20/%E6%8E%A5%E5%8F%A3%EF%BC%88interface%EF%BC%89/"/>
+    <id>http://yoursite.com/2020/03/20/%E6%8E%A5%E5%8F%A3%EF%BC%88interface%EF%BC%89/</id>
+    <published>2020-03-20T05:51:44.000Z</published>
+    <updated>2020-03-20T09:37:13.999Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="接口（interface）"><a href="#接口（interface）" class="headerlink" title="接口（interface）"></a>接口（interface）</h1><p>接口是纯抽象类<br>    所有的成员函数都是抽象函数<br>    所有成员变量都是public static final<br> 接口规定了长什么样，但是不管里面有什么<br> 接口是一种class，与class的地位是一样的，即所有能使用class的地方都可以使用interface</p><hr><h1 id="实现接口"><a href="#实现接口" class="headerlink" title="实现接口"></a>实现接口</h1><ul><li>类用extends，接口用implements</li><li>类可以实现很多接口</li><li>接口可以继承接口，但不能继承类</li><li>接口不能实现接口</li></ul><hr><h1 id="面向接口的编程方式"><a href="#面向接口的编程方式" class="headerlink" title="面向接口的编程方式"></a>面向接口的编程方式</h1><ul><li>设计程序时先定义接口，再实现类</li><li>任何需要再函数间传入传出的一定是接口而不是具体的类</li><li>多人合作编程较为有利</li><li>代码量快速膨胀，受到批评</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;接口（interface）&quot;&gt;&lt;a href=&quot;#接口（interface）&quot; class=&quot;headerlink&quot; title=&quot;接口（interface）&quot;&gt;&lt;/a&gt;接口（interface）&lt;/h1&gt;&lt;p&gt;接口是纯抽象类&lt;br&gt;    所有的成员函数都是抽象
+      
+    
+    </summary>
+    
+    
+      <category term="Java基础" scheme="http://yoursite.com/categories/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
+    
+      <category term="interface" scheme="http://yoursite.com/tags/interface/"/>
+    
+  </entry>
   
   <entry>
     <title>static关键字学习</title>
@@ -45,36 +75,6 @@
       <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
     
       <category term="static" scheme="http://yoursite.com/tags/static/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Interface</title>
-    <link href="http://yoursite.com/2020/03/20/%E6%8E%A5%E5%8F%A3%EF%BC%88interface%EF%BC%89/"/>
-    <id>http://yoursite.com/2020/03/20/%E6%8E%A5%E5%8F%A3%EF%BC%88interface%EF%BC%89/</id>
-    <published>2020-03-20T05:51:44.000Z</published>
-    <updated>2020-03-20T09:37:13.999Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="接口（interface）"><a href="#接口（interface）" class="headerlink" title="接口（interface）"></a>接口（interface）</h1><p>接口是纯抽象类<br>    所有的成员函数都是抽象函数<br>    所有成员变量都是public static final<br> 接口规定了长什么样，但是不管里面有什么<br> 接口是一种class，与class的地位是一样的，即所有能使用class的地方都可以使用interface</p><hr><h1 id="实现接口"><a href="#实现接口" class="headerlink" title="实现接口"></a>实现接口</h1><ul><li>类用extends，接口用implements</li><li>类可以实现很多接口</li><li>接口可以继承接口，但不能继承类</li><li>接口不能实现接口</li></ul><hr><h1 id="面向接口的编程方式"><a href="#面向接口的编程方式" class="headerlink" title="面向接口的编程方式"></a>面向接口的编程方式</h1><ul><li>设计程序时先定义接口，再实现类</li><li>任何需要再函数间传入传出的一定是接口而不是具体的类</li><li>多人合作编程较为有利</li><li>代码量快速膨胀，受到批评</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;接口（interface）&quot;&gt;&lt;a href=&quot;#接口（interface）&quot; class=&quot;headerlink&quot; title=&quot;接口（interface）&quot;&gt;&lt;/a&gt;接口（interface）&lt;/h1&gt;&lt;p&gt;接口是纯抽象类&lt;br&gt;    所有的成员函数都是抽象
-      
-    
-    </summary>
-    
-    
-      <category term="Java基础" scheme="http://yoursite.com/categories/Java%E5%9F%BA%E7%A1%80/"/>
-    
-    
-      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
-    
-      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
-    
-      <category term="interface" scheme="http://yoursite.com/tags/interface/"/>
     
   </entry>
   
