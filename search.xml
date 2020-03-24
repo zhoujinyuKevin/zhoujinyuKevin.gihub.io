@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>static关键字学习</title>
+    <url>/2020/03/20/static%E5%85%B3%E9%94%AE%E5%AD%97/</url>
+    <content><![CDATA[<ol>
+<li>static定义的变量是类变量，即可以通过 <strong>类.变量</strong> 的方式进行访问，static定义的变量不属于任何对象，属于该类，任何对象都可以调用该变量，但是只有那一份</li>
+<li>static定义的函数是类函数，他不属于任何对象，属于这个类，</li>
+<li>static的函数只能调用static的函数，只能访问static的变量，static的变量和函数能通过类的方式访问，也可以通过对象的形式访问，不过用对象形式访问时不能获得对象的具体信息，</li>
+<li>static的变量和函数在类的装载（进入类过程）的时候被初始化，static的初始化和对象的创建无关。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Java基础</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>blog</tag>
+        <tag>static</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Interface</title>
     <url>/2020/03/20/%E6%8E%A5%E5%8F%A3%EF%BC%88interface%EF%BC%89/</url>
     <content><![CDATA[<h1 id="接口（interface）"><a href="#接口（interface）" class="headerlink" title="接口（interface）"></a>接口（interface）</h1><p>接口是纯抽象类<br>    所有的成员函数都是抽象函数<br>    所有成员变量都是public static final<br> 接口规定了长什么样，但是不管里面有什么<br> 接口是一种class，与class的地位是一样的，即所有能使用class的地方都可以使用interface</p>
@@ -26,25 +45,6 @@
         <tag>Java</tag>
         <tag>blog</tag>
         <tag>interface</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>static关键字学习</title>
-    <url>/2020/03/20/static%E5%85%B3%E9%94%AE%E5%AD%97/</url>
-    <content><![CDATA[<ol>
-<li>static定义的变量是类变量，即可以通过 <strong>类.变量</strong> 的方式进行访问，static定义的变量不属于任何对象，属于该类，任何对象都可以调用该变量，但是只有那一份</li>
-<li>static定义的函数是类函数，他不属于任何对象，属于这个类，</li>
-<li>static的函数只能调用static的函数，只能访问static的变量，static的变量和函数能通过类的方式访问，也可以通过对象的形式访问，不过用对象形式访问时不能获得对象的具体信息，</li>
-<li>static的变量和函数在类的装载（进入类过程）的时候被初始化，static的初始化和对象的创建无关。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Java基础</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>blog</tag>
-        <tag>static</tag>
       </tags>
   </entry>
   <entry>
