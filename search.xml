@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>vim命令</title>
+    <url>/2020/03/25/vim%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>vim</category>
+      </categories>
+      <tags>
+        <tag>ubuntu vim</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ubuntu: vim</title>
+    <url>/2020/03/25/ubuntu-vim/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>static关键字学习</title>
     <url>/2020/03/20/static%E5%85%B3%E9%94%AE%E5%AD%97/</url>
     <content><![CDATA[<ol>
