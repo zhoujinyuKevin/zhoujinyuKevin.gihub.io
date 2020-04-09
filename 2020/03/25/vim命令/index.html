@@ -88,12 +88,14 @@
 
 
 
+<meta name="description" content="写在前面的话：Vim编辑器是一种典型的文本编辑器，就编辑文本文件来说，其与Windows下的记事本和notepad++没有任何区别，只有支持的格式以及默认的设定有些许区别，但是Vim在命令行下的使用是其在编程业内受欢迎的原因之一，尤其是在linux系统下面，很多操作都是用命令行进行操作的，而很多的说明解释类文档不需要特别复杂的格式，Vim在满足编辑要求的前提下还能在命令行编辑保存，并且不会出现各种">
 <meta property="og:type" content="article">
 <meta property="og:title" content="vim命令">
 <meta property="og:url" content="http://yoursite.com/2020/03/25/vim%E5%91%BD%E4%BB%A4/index.html">
 <meta property="og:site_name" content="CodeKevin&#39;s blog">
+<meta property="og:description" content="写在前面的话：Vim编辑器是一种典型的文本编辑器，就编辑文本文件来说，其与Windows下的记事本和notepad++没有任何区别，只有支持的格式以及默认的设定有些许区别，但是Vim在命令行下的使用是其在编程业内受欢迎的原因之一，尤其是在linux系统下面，很多操作都是用命令行进行操作的，而很多的说明解释类文档不需要特别复杂的格式，Vim在满足编辑要求的前提下还能在命令行编辑保存，并且不会出现各种">
 <meta property="article:published_time" content="2020-03-25T15:46:47.000Z">
-<meta property="article:modified_time" content="2020-03-25T15:49:41.199Z">
+<meta property="article:modified_time" content="2020-04-07T04:34:32.884Z">
 <meta property="article:author" content="CodeKevin">
 <meta property="article:tag" content="ubuntu vim">
 <meta name="twitter:card" content="summary">
@@ -384,7 +386,7 @@
       
 
       
-        
+        <h2 id="写在前面的话："><a href="#写在前面的话：" class="headerlink" title="写在前面的话："></a>写在前面的话：</h2><h3 id="Vim编辑器是一种典型的文本编辑器，就编辑文本文件来说，其与Windows下的记事本和notepad-没有任何区别，只有支持的格式以及默认的设定有些许区别，但是Vim在命令行下的使用是其在编程业内受欢迎的原因之一，尤其是在linux系统下面，很多操作都是用命令行进行操作的，而很多的说明解释类文档不需要特别复杂的格式，Vim在满足编辑要求的前提下还能在命令行编辑保存，并且不会出现各种格式上的问题，故而程序员经常使用Vim来编辑文档"><a href="#Vim编辑器是一种典型的文本编辑器，就编辑文本文件来说，其与Windows下的记事本和notepad-没有任何区别，只有支持的格式以及默认的设定有些许区别，但是Vim在命令行下的使用是其在编程业内受欢迎的原因之一，尤其是在linux系统下面，很多操作都是用命令行进行操作的，而很多的说明解释类文档不需要特别复杂的格式，Vim在满足编辑要求的前提下还能在命令行编辑保存，并且不会出现各种格式上的问题，故而程序员经常使用Vim来编辑文档" class="headerlink" title="Vim编辑器是一种典型的文本编辑器，就编辑文本文件来说，其与Windows下的记事本和notepad++没有任何区别，只有支持的格式以及默认的设定有些许区别，但是Vim在命令行下的使用是其在编程业内受欢迎的原因之一，尤其是在linux系统下面，很多操作都是用命令行进行操作的，而很多的说明解释类文档不需要特别复杂的格式，Vim在满足编辑要求的前提下还能在命令行编辑保存，并且不会出现各种格式上的问题，故而程序员经常使用Vim来编辑文档"></a>Vim编辑器是一种典型的文本编辑器，就编辑文本文件来说，其与Windows下的记事本和notepad++没有任何区别，只有支持的格式以及默认的设定有些许区别，但是Vim在命令行下的使用是其在编程业内受欢迎的原因之一，尤其是在linux系统下面，很多操作都是用命令行进行操作的，而很多的说明解释类文档不需要特别复杂的格式，Vim在满足编辑要求的前提下还能在命令行编辑保存，并且不会出现各种格式上的问题，故而程序员经常使用Vim来编辑文档</h3><h2 id="经常使用的命令："><a href="#经常使用的命令：" class="headerlink" title="经常使用的命令："></a>经常使用的命令：</h2><h5 id="Vim打开文件默认是只读方式的，要想进入编辑模式，需要电极a键或i键，这两个键都能进入编辑模式，区别是开始编辑的位置不同；"><a href="#Vim打开文件默认是只读方式的，要想进入编辑模式，需要电极a键或i键，这两个键都能进入编辑模式，区别是开始编辑的位置不同；" class="headerlink" title="Vim打开文件默认是只读方式的，要想进入编辑模式，需要电极a键或i键，这两个键都能进入编辑模式，区别是开始编辑的位置不同；"></a>Vim打开文件默认是只读方式的，要想进入编辑模式，需要电极a键或i键，这两个键都能进入编辑模式，区别是开始编辑的位置不同；</h5><h5 id="Vim保存退出的命令，按ESC键（键盘左上角）进入命令模式，输入英语状态下的冒号（一定是英文输入法下的半角状态冒号），按w键-q键既是保存-退出。"><a href="#Vim保存退出的命令，按ESC键（键盘左上角）进入命令模式，输入英语状态下的冒号（一定是英文输入法下的半角状态冒号），按w键-q键既是保存-退出。" class="headerlink" title="Vim保存退出的命令，按ESC键（键盘左上角）进入命令模式，输入英语状态下的冒号（一定是英文输入法下的半角状态冒号），按w键+q键既是保存+退出。"></a>Vim保存退出的命令，按ESC键（键盘左上角）进入命令模式，输入英语状态下的冒号（一定是英文输入法下的半角状态冒号），按w键+q键既是保存+退出。</h5>
       
     </div>
     
@@ -472,8 +474,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2020/03/25/ubuntu-vim/" rel="next" title="ubuntu: vim">
-                <i class="fa fa-chevron-left"></i> ubuntu: vim
+              <a href="/2020/03/20/static%E5%85%B3%E9%94%AE%E5%AD%97/" rel="next" title="static关键字学习">
+                <i class="fa fa-chevron-left"></i> static关键字学习
               </a>
             
           </div>
@@ -481,6 +483,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2020/04/07/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/" rel="prev" title="Markdown基本语法">
+                Markdown基本语法 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -537,8 +543,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -557,7 +572,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -568,7 +583,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -579,7 +594,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -659,6 +674,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#写在前面的话："><span class="nav-number">1.</span> <span class="nav-text">写在前面的话：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Vim编辑器是一种典型的文本编辑器，就编辑文本文件来说，其与Windows下的记事本和notepad-没有任何区别，只有支持的格式以及默认的设定有些许区别，但是Vim在命令行下的使用是其在编程业内受欢迎的原因之一，尤其是在linux系统下面，很多操作都是用命令行进行操作的，而很多的说明解释类文档不需要特别复杂的格式，Vim在满足编辑要求的前提下还能在命令行编辑保存，并且不会出现各种格式上的问题，故而程序员经常使用Vim来编辑文档"><span class="nav-number">1.1.</span> <span class="nav-text">Vim编辑器是一种典型的文本编辑器，就编辑文本文件来说，其与Windows下的记事本和notepad++没有任何区别，只有支持的格式以及默认的设定有些许区别，但是Vim在命令行下的使用是其在编程业内受欢迎的原因之一，尤其是在linux系统下面，很多操作都是用命令行进行操作的，而很多的说明解释类文档不需要特别复杂的格式，Vim在满足编辑要求的前提下还能在命令行编辑保存，并且不会出现各种格式上的问题，故而程序员经常使用Vim来编辑文档</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#经常使用的命令："><span class="nav-number">2.</span> <span class="nav-text">经常使用的命令：</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Vim打开文件默认是只读方式的，要想进入编辑模式，需要电极a键或i键，这两个键都能进入编辑模式，区别是开始编辑的位置不同；"><span class="nav-number">2.0.0.1.</span> <span class="nav-text">Vim打开文件默认是只读方式的，要想进入编辑模式，需要电极a键或i键，这两个键都能进入编辑模式，区别是开始编辑的位置不同；</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Vim保存退出的命令，按ESC键（键盘左上角）进入命令模式，输入英语状态下的冒号（一定是英文输入法下的半角状态冒号），按w键-q键既是保存-退出。"><span class="nav-number">2.0.0.2.</span> <span class="nav-text">Vim保存退出的命令，按ESC键（键盘左上角）进入命令模式，输入英语状态下的冒号（一定是英文输入法下的半角状态冒号），按w键+q键既是保存+退出。</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
